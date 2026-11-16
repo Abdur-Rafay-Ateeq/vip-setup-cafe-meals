@@ -1,0 +1,85 @@
+<!-- Abdur Rafay Ateeq
+26i-3177 | Section D -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VIP SETUP Cafe &amp; Meals - Contact &amp; Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Full Menu</a>
+        <a href="contact.html" class="active">Contact &amp; Order</a>
+    </nav>
+
+    <main>
+        <h1>Contact &amp; Quick Order</h1>
+        <p>Visit our outlet or place a quick takeaway order below!</p>
+
+        <h2>Opening Hours &amp; Location</h2>
+        <table>
+            <tr>
+                <th>Detail</th>
+                <th>Information</th>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>Main Food Street, H-11/4, Islamabad (Near FAST-NUCES)</td>
+            </tr>
+            <tr>
+                <td>Monday – Friday</td>
+                <td>9:00 AM – 11:00 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday – Sunday</td>
+                <td>12:00 PM – 12:00 AM</td>
+            </tr>
+            <tr>
+                <td>Phone / WhatsApp</td>
+                <td>+92 300 1234567</td>
+            </tr>
+        </table>
+
+        <h2>Place a Quick Order / Send Feedback</h2>
+        <form onsubmit="alert('Thank you! Your order/message has been received by VIP SETUP Cafe & Meals.'); return false;">
+            <table>
+                <tr>
+                    <td><label for="name">Your Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Enter your name" required style="width: 90%; padding: 6px;"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone Number:</label></td>
+                    <td><input type="text" id="phone" name="phone" placeholder="03XX-XXXXXXX" required style="width: 90%; padding: 6px;"></td>
+                </tr>
+                <tr>
+                    <td><label for="item">Select Item:</label></td>
+                    <td>
+                        <select id="item" name="item" style="width: 95%; padding: 6px;">
+                            <option value="Special Chaye">Special Chaye - Rs. 350</option>
+                            <option value="Special Kahwa">Special Kahwa - Rs. 300</option>
+                            <option value="Red Sauce Pasta">Red Sauce Pasta - Rs. 650</option>
+                            <option value="White Sauce Pasta">White Sauce Pasta - Rs. 800</option>
+                            <option value="VIP Crispy Burger">VIP Crispy Burger - Rs. 700</option>
+                            <option value="Club Sandwich">Club Sandwich - Rs. 750</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="notes">Special Instructions:</label></td>
+                    <td><textarea id="notes" name="notes" rows="3" placeholder="Any extra sauce, spice level, or feedback..." style="width: 90%; padding: 6px;"></textarea></td>
+                </tr>
+            </table>
+            <button type="submit">Submit Order / Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 VIP SETUP Cafe &amp; Meals | Created by Abdur Rafay Ateeq (26i-3177)</p>
+    </footer>
+
+</body>
+</html>
