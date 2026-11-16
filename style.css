@@ -1,0 +1,11 @@
+table, th, td {
+    text-align:center;
+    border:1px solid black;
+}
+img {
+    width: 750px;
+    height: 500px;
+}
+body{
+    background-color: aqua;
+}
